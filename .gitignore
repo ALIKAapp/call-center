@@ -1,0 +1,6 @@
+node_modules/
+data/
+platform-tools/
+.impeccable/
+.DS_Store
+*.log

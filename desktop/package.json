@@ -1,0 +1,19 @@
+{
+  "name": "call-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upload an Excel list of names and phone numbers; your Android phone calls each person one after another, and the dashboard shows who is being called now, who was before and who is next.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node server.js --demo"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}
